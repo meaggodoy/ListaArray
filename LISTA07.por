@@ -1,6 +1,6 @@
 programa
 {
-	
+	//funciona só no web
 	funcao inicio()
 	{
 		inteiro n
@@ -23,3 +23,4 @@ programa
 		}
 	}
 }
+
