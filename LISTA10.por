@@ -5,6 +5,10 @@ programa
 	{
 		inteiro vetor[15], menu, indice, i, valor
 
+		para (inteiro j = 0; j < 15; j++) {
+			vetor[j] = 0
+		}
+
 		faca {
 			escreva("Digite o menu desejado:")
 			escreva("\n1 - Cadastrar valor | 2 - Somar um valor | 3 - Multplicar um valor | 4 - Incrementar a todos os valores | 5 - Listar os valores | 6 - Fechar ")
@@ -49,6 +53,8 @@ programa
 				para (i = 0; i < 15; i++) {
 					vetor[i] = vetor[i] + 1
 				}
+
+        escreva("Todos os valores foram incrementados\n")
 			} se (menu == 5) {
 				para (i = 0; i < 15; i++) {
 					escreva(vetor[i], " ")
